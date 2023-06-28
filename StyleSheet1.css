@@ -1,0 +1,1044 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #0A0A0A;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.conteiner {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #000;
+    justify-content: center;
+}
+
+.mainmenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1% 10%;
+    background-color: #373A3C;
+}
+
+.menu {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menupoint {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/*.burgers {
+    display: none;
+}*/
+
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+}
+
+    .content a {
+        color: rgba(255, 255, 255, 0.50);
+        font-size: 18px;
+        font-family: Roboto;
+        line-height: 16px;
+        text-decoration: none;
+    }
+
+    .content a:hover {
+        color: #fff;
+    }
+
+.MyXbox {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+p1 {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 18px;
+    font-family: Roboto;
+    line-height: 16px;
+}
+
+    p1:hover {
+        color: #FFF;
+    }
+
+.user {
+    margin-right: 5px;
+}
+
+.arrow {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.BigSlider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.SliderIMG {
+    z-index: 0;
+}
+
+.SliderCards {
+    position: absolute;
+    transition: all 1s;
+    width: 400px;
+    height: 150px;
+    z-index: 888;
+    left: 65%;
+    bottom: 45%;
+    transform: translateY(10%);
+    overflow: hidden;
+}
+
+.SliderCard {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 150px;
+}
+
+F2 {
+    color: #FFF;
+    font-size: 36px;
+    font-family: Roboto;
+    margin-bottom: 55px;
+}
+
+.SliderButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.SliderButton {
+    padding: 3% 3%;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Roboto;
+    line-height: 21px;
+    border: none;
+    border-radius: 4px;
+    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+}
+
+    .SliderButton:hover {
+        background: #8DD83D;
+    }
+
+.SliderLine {
+    display: flex;
+    background-color: #000;
+    align-items: center;
+    transition: all 1s;
+    margin-left: 0;
+}
+
+.SliderBtnPrev {
+    position: absolute;
+    left: 5%;
+    top: 47.5%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.SliderBtnNext {
+    position: absolute;
+    left: 95%;
+    top: 47.5%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+    .SliderBtnPrev img, .SliderBtnNext img {
+        width: 15px;
+    }
+
+.SliderWrapper {
+    display: flex;
+    column-gap: 10px;
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+}
+
+.SliderDot {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #8DD83D;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+    .SliderDot:hover {
+        background-color: #8DD83D;
+    }
+
+    .active-dot {
+        background-color: #8DD83D;
+    }
+
+.TheBestValue {
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: radial-gradient(100% 100% at 50% 0%, #686C6F 0%, #373A3C 100%);
+}
+
+.xboxicon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1.5%;
+}
+
+F3 {
+    color: #FFF;
+    font-size: 48px;
+    font-family: Roboto;
+}
+
+p3 {
+    color: #FFF;
+    font-size: 36px;
+    font-family: Roboto;
+    margin-bottom: 2%;
+}
+
+.BestCards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.BestCard {
+    width: 30%;
+    background-color: #FFF;
+    border: 1px solid #8DD83D;
+}
+
+    .BestCard img {
+        width: 100%;
+    }
+
+.BestText {
+    padding: 5% 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+F31 {
+    color: #435766;
+    font-size: 18px;
+    font-family: Roboto;
+    margin-bottom: 2%;
+}
+
+p31 {
+    width: 85%;
+    color: #435766;
+    font-size: 24px;
+    font-family: Roboto;
+    margin-bottom: 9%;
+}
+
+.BestButton {
+    padding: 5% 0%;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Roboto;
+    line-height: 21px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    cursor: pointer;
+}
+
+    .BestButton:hover {
+        background: #8DD83D;
+    }
+
+.GamesFilter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 10%;
+    background-image: url(photos/CODbig.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+F4 {
+    color: #FFF;
+    font-size: 36px;
+    font-family: Roboto;
+    margin-bottom: 2%;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 3%;
+}
+
+.list__item {
+    color: #FFF;
+    font-size: 18px;
+    font-family: Roboto;
+    list-style-type: none;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+    border-radius: 5px;
+    width: 15%;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+    .active {
+        background: #8DD83D;
+    }
+
+.blocks {
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.blocks__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blocks__item {
+    width: 300px;
+    height: 125px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.shooter1 {
+    background-image: url(photos/CODsmall.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.shooter2 {
+    background-image: url(photos/Destiny.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.shooter3 {
+    background-image: url(photos/Star-Wars-Battlefront.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.shooter4 {
+    background-image: url(photos/halo.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.rpg1 {
+    background-image: url(photos/cyberpunk.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.rpg2 {
+    background-image: url(photos/Witcher3.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.rpg3 {
+    background-image: url(photos/DL.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.rpg4 {
+    background-image: url(photos/skyrim.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.strategi1 {
+    background-image: url(photos/rome.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.strategi2 {
+    background-image: url(photos/Gear.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.strategi3 {
+    background-image: url(photos/civa.jpeg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.strategi4 {
+    background-image: url(photos/alliances.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.survival1 {
+    background-image: url(photos/mine.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.survival2 {
+    background-image: url(photos/ark.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.survival3 {
+    background-image: url(photos/rust.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.survival4 {
+    background-image: url(photos/ruft.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+span1 {
+    color: #FFF;
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.TabsItems {
+    display: flex;
+}
+
+.TabsItem {
+    flex: 0 1 33.3%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 40px;
+    font-family: Roboto;
+    text-decoration: none;
+}
+
+    .TabsItem span {
+        position: relative;
+        z-index: 2;
+    }
+
+.TabsBlock {
+    text-align: center;
+    position: relative;
+    padding: 2%;
+    color: #FFF;
+    font-size: 32px;
+    font-family: Roboto;
+    display: none;
+}
+
+    .TabsBlock:before {
+        content: "";
+        height: 60px;
+        width: 33.3%;
+        position: absolute;
+        top: -60px;
+    }
+
+    .TabsBlock:nth-child(1) {
+        background: rgba(23, 23, 23, 0.50);
+        border: 3px solid #8DD83D;
+    }
+
+    .TabsBlock:nth-child(1):before {
+        background-color: #8DD83D;
+        left: 0;
+    }
+
+    .TabsBlock:nth-child(2) {
+        background: rgba(23, 23, 23, 0.50);
+        border: 3px solid #8DD83D;
+    }
+
+    .TabsBlock:nth-child(2):before {
+        background-color: #8DD83D;
+        left: 33.3%;
+    }
+
+    .TabsBlock:nth-child(3) {
+        background: rgba(23, 23, 23, 0.50);
+        border: 3px solid #8DD83D;
+    }
+
+    .TabsBlock:nth-child(3):before {
+        background-color: #8DD83D;
+        right: 0;
+    }
+
+    .TabsBlock:target {
+        display: block;
+    }
+
+.DesignButtons {
+    margin-top: 2%;
+}
+
+.DesignLab {
+    padding: 8% 10%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(photos/DesignLab.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.DesignButton {
+    padding: 2% 3%;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 16px;
+    font-family: Roboto;
+    line-height: 21px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);
+}
+
+.DesignButton:hover {
+    background: #8DD83D;
+}
+
+
+
+.modal-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal {
+    background-color: #fff;
+    width: 300px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal-overlay--visible {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.3s ease-in-out;
+}
+
+.modal--visible {
+    display: block;
+}
+
+p234 {
+    color: #435766;
+    font-size: 21px;
+    font-family: Roboto;
+    padding-top: 30px;
+}
+
+.input-form {
+    margin: 15px 40px;
+    text-align: center;
+}
+
+    .input-form input {
+        padding: 10px;
+        width: 100%;
+        color: #000;
+        font-size: 20px;
+        background: none;
+        outline: none;
+        border: 1px solid #fff;
+        box-sizing: border-box;
+    }
+
+        .input-form input[type="text"]:focus, .input-form input[type="password"]:focus {
+            border: 1px solid #38ff9c;
+        }
+
+        .input-form a[type="submit"] {
+            margin-top: 20px;
+            padding: 3% 5%;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: none;
+            background: #38ff9c;
+            transition: .3s;
+        }
+
+            .input-form a[type="submit"]:hover {
+                background: #00ff81;
+            }
+
+.form a {
+    display: block;
+    padding: 0 0 30px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    transition: .3s;
+}
+
+    .form a:hover {
+        color: #38ff9c;
+    }
+
+.forget {
+    color: #435766;
+    font-size: 21px;
+    font-family: Roboto;
+}
+
+    .forget:hover {
+        color: #0063FF;
+    }
+
+
+
+
+.under {
+    padding: 2% 10% 0% 10%;
+    display: flex;
+    flex-direction: column;
+    background-color: #373A3C;
+}
+
+.mainunder {
+    padding: 0% 5% 1% 5%;
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #666666;
+}
+
+.Links {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.socseti {
+    width: 27%;
+    display: flex;
+    justify-content: space-between;
+}
+
+F6 {
+    color: #7DD42F;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+a6 {
+    color: #FFF;
+    font-size: 14px;
+    font-family: Roboto;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+    a6:hover {
+        color: #7DD42F;
+    }
+
+.hell {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5% 0%;
+    color: #FFF;
+    font-size: 14px;
+    font-family: Roboto;
+}
+
+
+@media only screen and (max-width: 2560px) {
+
+    p1 {
+        font-size: 24px;
+    }
+
+    F6 {
+        font-size: 24px;
+    }
+
+    a6 {
+        font-size: 18px;
+    }
+
+    p61 {
+        font-size: 18px;
+    }
+
+    .socseti img {
+        width: 24px;
+        height: 25px;
+    }
+
+    .span {
+        font-size: 24px;
+    }
+
+}
+
+@media only screen and (max-width: 2100px) {
+
+    .GamesFilter {
+        background-size: 175%;
+    }
+
+}
+
+@media only screen and (max-width: 1440px) {
+
+    p1 {
+        font-size: 16px;
+    }
+
+    .content a {
+        font-size: 14px;
+    }
+
+    .list__item {
+        width: 18%;
+        font-size: 14px;
+    }
+
+    .blocks__item {
+        width: 250px;
+    }
+
+    span {
+        font-size: 30px;
+    }
+
+    F6 {
+        font-size: 18px;
+    }
+
+    a6 {
+        font-size: 14px;
+    }
+
+    p61 {
+        font-size: 14px;
+    }
+
+    .socseti img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .TabsBlock {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+
+    p1 {
+        font-size: 12px;
+    }
+
+    .content a {
+        font-size: 10px;
+    }
+
+    .xboxicon {
+        width: 40px;
+        height: 40px;
+    }
+
+    F3 {
+        font-size: 36px;
+    }
+
+    p31 {
+        font-size: 18px;
+    }
+
+    .BestButton {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+
+    .GamesFilter {
+        background-image: url(photos/CODMAX.png);
+    }
+
+    .DesignLab {
+        background-image: url(photos/Rectangle.png)
+    }
+
+}
+
+@media only screen and (max-width: 1400px) {
+
+    span {
+        font-size: 24px;
+    }
+
+    F5 {
+        font-size: 18px;
+    }
+
+    p5 {
+        font-size: 18px;
+    }
+
+    .TabsBlock {
+        font-size: 21px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    /*.menupoint .burgers {
+        display: flex;
+        width: 90px;
+        height: 90px;
+    }*/
+
+    .menupoint {
+        display: none;
+    }
+
+    .MyXbox {
+        display: none;
+    }
+
+    F3 {
+        font-size: 25px;
+    }
+
+    p3 {
+        font-size: 25px;
+    }
+
+    .xboxicon {
+        width: 25px;
+        height: 25px;
+    }
+
+    F31 {
+        font-size: 12px;
+    }
+
+    p31 {
+        font-size: 12px;
+    }
+
+    .BestButton {
+        font-size: 10px;
+    }
+
+    F4 {
+        font-size: 25px;
+    }
+
+    .list__item {
+        font-size: 10px;
+    }
+
+    span {
+        font-size: 16px;
+    }
+
+    .TabsBlock {
+        font-size: 14px;
+    }
+
+    .TabsItem {
+        height: 30px;
+    }
+
+        .TabsBlock:before {
+            height: 40px;
+            top: -40px;
+        }
+
+    F6 {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    a6 {
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+
+    p61 {
+        font-size: 10px;
+    }
+
+    .socseti {
+        width: 100%;
+    }
+
+    .socseti img {
+        width: 10px;
+        height: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 760px) {
+
+    .GamesFilter {
+        background-image: none;
+        background-color: #373A3C;
+    }
+
+}
+
+@media only screen and (max-width: 426px) {
+
+    .BestCards {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .BestCard {
+        margin: 5%;
+        width: 175px;
+    }
+
+    p3 {
+        text-align: center;
+    }
+
+    .list {
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    .list__item {
+        font-size: 8px;
+    }
+    span {
+        font-size: 12px;
+    }
+
+    F5 {
+        font-size: 12px;
+    }
+
+    p5 {
+        font-size: 12px;
+    }
+
+    .DesignButton {
+        font-size: 12px;
+    }
+
+    .TabsBlock {
+        font-size: 12px;
+    }
+
+    F6 {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    a6 {
+        font-size: 8px;
+        margin-bottom: 5px;
+    }
+
+    p61 {
+        font-size: 8px;
+    }
+
+    .socseti img {
+        width: 8px;
+        height: 8px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
